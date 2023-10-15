@@ -17,10 +17,10 @@ shift = 0
 x_start, y_start = 20, 10
 
 img_file_back =     path.dirname(__file__)+ '/cave.png'
-img_file_hero =     path.dirname(__file__)+ '/Flash.png'
-img_file_enemy =    path.dirname(__file__)+ '/Batman.png' 
-img_file_bomb =     path.dirname(__file__)+ '/Joker.png'
-img_file_princess = path.dirname(__file__)+ '/Пингвин.png'
+img_file_hero =     path.dirname(__file__)+ '/Человек муравей.png'
+img_file_enemy =    path.dirname(__file__)+ '/Танос.png' 
+img_file_bomb =     path.dirname(__file__)+ '/Железный человек.png'
+img_file_princess = path.dirname(__file__)+ '/Человек паук.png'
 FPS = 60
 
 # цвета:
