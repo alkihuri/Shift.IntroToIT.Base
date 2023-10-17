@@ -7,4 +7,4 @@ def factorial(n):
         return n * factorial(n-1)
 
 number = int(input("Введите число: "))
-print("Факториал числа:", factorial(number))
+print("Факториал числа:", factorial(n))
