@@ -1,5 +1,5 @@
 #INTRO TO IT 2nd COURSE
 
-greet():
+def greet():
     print("Привет!")
 greet()
