@@ -3,7 +3,7 @@
 #(Пусть это будет функция, которая возвращает количество дней до дня рождения)
 from datetime import datetime
 
-def days_until_birthday(birZday):
+def days_until_birthday(birthday):
     today = datetime.today()
     next_birthday = datetime(today.year, birthday.month, birthday.day)
     if today > next_birthday:

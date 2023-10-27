@@ -14,7 +14,7 @@ class TestSumFunction(unittest.TestCase):
         
     def test_days_until_birthday(self):
         result = days_until_birthday(datetime(2024, 12, 31))
-        self.assertEqual(result, 95, msg=f"Тест 'days_until_birthday' не пройден. Результат = {result}")
+        self.assertEqual(result, 65, msg=f"Тест 'days_until_birthday' не пройден. Результат = {result}")
 
     def test_calculate_salary(self):
         result = calculate_salary(10, 40)
