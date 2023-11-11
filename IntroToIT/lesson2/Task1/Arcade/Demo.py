@@ -192,9 +192,9 @@ while run:
             run = False 
         elif event.type == pygame.KEYDOWN: 
             if event.key == pygame.K_LEFT:
-                robin.x_speed = 5 
+                robin.x_speed = 10 
             elif event.key == pygame.K_RIGHT:
-                robin.x_speed = -5 
+                robin.x_speed = -10 
             elif event.key == pygame.K_UP:
                 robin.jump(7)
 
